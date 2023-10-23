@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Homework2</title>
+    <title>Unity WebGL Player | SSAFYE201</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600></canvas>
+      <canvas id="unity-canvas" width=1280 height=1024></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Homework2</div>
+        <div id="unity-build-title">SSAFYE201</div>
       </div>
     </div>
     <script>
@@ -56,14 +56,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/hw2.loader.js";
+      var loaderUrl = buildUrl + "/SomaSSAFY.loader.js";
       var config = {
-        dataUrl: buildUrl + "/hw2.data",
-        frameworkUrl: buildUrl + "/hw2.framework.js",
-        codeUrl: buildUrl + "/hw2.wasm",
+        dataUrl: buildUrl + "/SomaSSAFY.data",
+        frameworkUrl: buildUrl + "/SomaSSAFY.framework.js",
+        codeUrl: buildUrl + "/SomaSSAFY.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "Homework2",
+        productName: "SSAFYE201",
         productVersion: "0.1.0",
         showBanner: unityShowBanner,
       };
@@ -93,8 +93,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1280px";
+        canvas.style.height = "1024px";
       }
 
       loadingBar.style.display = "block";
